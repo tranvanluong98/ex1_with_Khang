@@ -1,0 +1,213 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    font-family: Arial, Helvetica, sans-serif!important;
+    position: fixed;
+}
+.logo{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(53, 34, 219);
+    position: relative;
+    padding: 25px;
+   bottom: -15px;
+   right: -245px;
+}
+.bt1{
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    left: 1015px;
+    color: white;
+    background-color: rgb(53, 34, 219);
+    transition: width .5s;
+    transition-timing-function: ease-in-out;
+}
+.bt1:hover{
+    background: brown;
+    
+}
+.bt2{
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    left: 1015px;
+    color: white;
+    background-color: rgb(53, 34, 219);
+    transition: width .7s;
+    transition-timing-function: ease-in-out;
+
+}
+.bt2:hover{
+    background: brown;
+    
+}
+
+.domain{
+    position: relative;
+    left: 210;
+    display: block;
+    margin-left:  215px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(92, 66, 32);
+
+}
+
+#header ul.hNav{
+    display: block;
+    text-align: right;
+    size: 12px;
+    margin-top: -25px;
+}
+#header ul.hNav a{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 10px;
+    text-decoration: none;
+
+}
+#header ul.hNav a:hover{
+    color: rgb(245, 20, 87);
+}
+
+#header ul.hNav li{
+    display: inline;
+    text-align: right;
+    
+}
+#header div.sectionLink{
+    position: absolute;
+    right: 25px;
+}
+
+
+.menu {
+    background: rgb(112, 88, 86);
+    color: #FF0000;
+    text-align: center;
+  }
+  
+  .menu span{
+    display: inline-block;
+    width:  250px;
+    height: 20px;
+    background: rgb(112, 88, 86);
+    color : #FFFFFF;
+    position: relative;
+    margin-top: 2px;
+  }
+  
+  .menu nav nav{
+    top: 0;
+    left: 100%;
+  }
+  
+  .menu span:hover{
+    font-weight: bold;
+    color: rgb(39, 228, 15);
+    cursor: pointer;
+  }
+  .menu nav{
+    display: none;
+  }
+  .menu span:hover > nav{
+    display: block;
+    position: absolute;
+  }
+
+  /* Responsive  */
+
+  @media screen and (max-width : 768px){
+      .menu{
+          /* căn menu ra giữa khi thay đổi width */
+          max-width: 768px;
+          margin: 0 auto;
+          background: deepskyblue;
+      }
+  }
+
+  /* Phần bodyPage */
+
+  #contentBody{
+    float: left;
+      width: 75%;
+      font-size: 14px;
+  }
+  
+  div#bodyPage div#contentBody section.group bodyHead{
+      margin-top: 5px;
+  }
+  .firstAsSide{
+
+      margin-right: 150px;
+      float: right;
+      margin-top: 30px;
+      display: block;
+    
+  }
+
+  
+
+  /* Thêm searchbox trong header */
+  
+  .search_box input[type="text"]{
+    border: 1px solid #ECECEC;
+    padding: 5px 25px;
+    width: 30%;
+    margin-left: 45%;
+  }
+
+  .search_box .glyphicon-search{
+    position: absolute;
+    cursor: pointer;
+    top: 20%;
+    transform: translate(0,-50%);
+    right: 3px;
+    margin-top: -190px;
+    margin-right: 29%;
+  }
+  .glyphicon-search{
+      position: fixed;
+      margin-left: 25px;
+  }
+  .glyphicon-search:hover{
+      
+      color: rgb(21, 221, 211);
+      transition: color .3s ease-in-out;
+  }
+
+  /* Xử lý các hình ảnh , banner , text*/
+  div.image1{
+      width: 150px;
+      height: 100px;
+  }
+  .productName{
+    color: blue;
+    font-size: 20px;
+    margin-top: -12%;
+    margin-left: 55%;
+  }
+  
+ #textIntro{
+    left: 4px;
+    margin-left: 186px;
+  }
+ /* Chuỗi hình ảnh */
+
+ .sanPham{
+    width: 5%;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+ }
+ .img1{
+    
+    text-align: center;
+ }
