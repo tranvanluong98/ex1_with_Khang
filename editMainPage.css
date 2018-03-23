@@ -214,4 +214,11 @@ body{
     margin-left: 45px;
     font-size: 18px;
  }
+
+  #date{
+     font-size: 15px;
+ }
+ .textNews{
+     color: rgb(41, 41, 197);
+ }
  
